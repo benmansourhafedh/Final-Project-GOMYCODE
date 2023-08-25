@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../CSS/style2.css"> <!-- Linking an external stylesheet for styling -->
+</head>
+<body>
+    <header>
+       <a href="/index.html"><input type="button" value="Home"></a> 
+    </header>
+
+    <section class="contact-form">
+        <h1>Contact Us</h1> <!-- Heading for the contact form section -->
+        <form>
+            <label for="name">Name:</label> <!-- Label for the name input field -->
+            <input type="text" id="name" name="name" required> <!-- Input field for entering the name -->
+
+            <label for="email">Email:</label> <!-- Label for the email input field -->
+            <input type="email" id="email" name="email" required> <!-- Input field for entering the email -->
+
+            <label for="message">Message:</label> <!-- Label for the message textarea -->
+            <textarea id="message" name="message" rows="5" required></textarea> <!-- Textarea for entering the message -->
+
+            <input type="submit" value="Send"> <!-- Submit button for sending the form data -->
+        </form>
+    </section>
+
+    <section class="feedback-form">
+        <h1>Feedback</h1> <!-- Heading for the feedback section -->
+        <form>
+            <label for="cnt">What's your feedback?</label> <!-- Label for the feedback select field -->
+            <select name="Evaluation" id="cnt"> <!-- Select dropdown for choosing feedback -->
+                <option value="Bad">Bad</option> <!-- Option for "Bad" feedback -->
+                <option value="Not Bad">Not Bad</option> <!-- Option for "Not Bad" feedback -->
+                <option value="Good">Good</option> <!-- Option for "Good" feedback -->
+                <option value="Very good">Very Good</option> <!-- Option for "Very Good" feedback -->
+                <option value="Amazing">Amazing</option> <!-- Option for "Amazing" feedback -->
+            </select>
+
+            <input type="submit" value="Submit"> <!-- Submit button for sending the feedback -->
+        </form>
+    </section>
+</body>
+</html>

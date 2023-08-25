@@ -1,0 +1,75 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style the navigation bar */
+nav {
+    background-color: #df4f4f; /* Dark gray color */
+    color: #fff; /* White color for text */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 80px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Yellow color on hover */
+}
+
+/* Style the logo image */
+#logo {
+    width: 60px;
+    height: auto;
+}
+
+
+
+
+/* Style the contact details in the footer */
+.footer-contact {
+    padding: 20px;
+}
+
+/* Style the bottom part of the footer */
+.footer-bottom {
+    background-color: #df4f4f;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

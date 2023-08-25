@@ -1,0 +1,92 @@
+/* Styling for the header */
+header {
+    margin-top: 5%; /* Adding margin at the bottom of the header */
+    margin-left: 5%; /* Adding margin on the right side of the header */
+    padding: auto; /* Automatically setting padding */
+    width: auto; /* Automatically setting width */
+    border-radius: 50; /* Incorrect - should be "border-radius: 50%;" for percentage value */
+}
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #929191;
+}
+
+/* Styling for sections containing content */
+section {
+    max-width: 500px; /* Maximum width of the section */
+    margin: 0 auto; /* Centering the section horizontally */
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Styling for heading elements */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for forms */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Removing border from fieldset */
+fieldset {
+    border: none;
+}
+
+/* Styling for labels */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Styling for various input types */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="date"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Styling for submit and reset buttons */
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect on submit and reset buttons */
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 600px) {
+    section {
+        max-width: 90%; /* Reducing the maximum width for smaller screens */
+    }
+}

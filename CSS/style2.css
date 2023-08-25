@@ -1,0 +1,96 @@
+/* Style for the header */
+header {
+    margin-bottom: 40%; /* Margin bottom set to 40% of the containing element's height */
+    margin-right: 10%; /* Margin right set to 10% of the containing element's width */
+    padding: auto; /* Padding set to "auto", not a valid value, so it won't have any effect */
+    width: auto; /* Width set to "auto", meaning it will expand to fit its content */
+    border-radius: 50; /* Missing unit for border-radius, should be "50px" for example */
+}
+
+/* Reset some default styles for consistency */
+* {
+    margin: 0; /* Margin removed for all elements */
+    padding: 0; /* Padding removed for all elements */
+    box-sizing: border-box; /* Box sizing set to border-box for all elements */
+}
+/* Style the body and center the content */
+body {
+    font-family: Arial, sans-serif; /* Font family set to Arial or sans-serif as fallback */
+    background-color: #929191; /* Background color set to a shade of gray (#929191) */
+    display: flex; /* Use flexbox display */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Set the height of the body to 100% of the viewport height */
+}
+
+.feedback-form {
+    margin-left: 10%; /* Margin left set to 10% of the containing element's width */
+}
+
+/* Style the form container */
+.contact-form,
+.feedback-form {
+    background-color: #fff; /* Background color set to white */
+    border-radius: 10px; /* Rounded corners with a radius of 10px */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle 2px shadow */
+    padding: 50px; /* Padding of 50px inside the container */
+    width: 400px; /* Fixed width of the container */
+}
+
+/* Style form headings */
+.contact-form h1,
+.feedback-form h1 {
+    font-size: 24px; /* Font size of 24px for form headings */
+    margin-bottom: 20px; /* Margin bottom of 20px for spacing */
+}
+
+/* Style labels */
+label {
+    display: block; /* Display labels as block elements */
+    font-weight: bold; /* Bold font weight for labels */
+    margin-bottom: 6px; /* Margin bottom of 6px for spacing */
+}
+
+/* Style input fields and textareas */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Width set to 100% of the container */
+    padding: 10px; /* Padding of 10px inside the input fields and textareas */
+    border: 1px solid #ccc; /* 1px solid border with a gray color (#ccc) */
+    border-radius: 4px; /* Rounded corners with a radius of 4px */
+    margin-bottom: 12px; /* Margin bottom of 12px for spacing between fields */
+}
+
+/* Style select dropdown */
+select {
+    width: 100%; /* Width set to 100% of the container */
+    padding: 10px; /* Padding of 10px inside the select dropdown */
+    border: 1px solid #ccc; /* 1px solid border with a gray color (#ccc) */
+    border-radius: 4px; /* Rounded corners with a radius of 4px */
+    margin-bottom: 12px; /* Margin bottom of 12px for spacing */
+    cursor: pointer; /* Cursor set to pointer on the dropdown */
+}
+
+/* Style submit button */
+input[type="submit"] {
+    background-color: #007BFF; /* Background color set to blue (#007BFF) */
+    color: #fff; /* Text color set to white */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners with a radius of 4px */
+    padding: 10px 20px; /* Padding of 10px vertically and 20px horizontally */
+    cursor: pointer; /* Cursor set to pointer on the button */
+}
+
+/* Hover effect on submit button */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Background color darkens on hover (#0056b3) */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .contact-form,
+    .feedback-form {
+        width: 80%; /* Width of the form container reduced to 80% on screens up to 600px wide */
+    }
+}

@@ -1,11 +1,117 @@
+<!-- This is the declaration of the HTML document type and language -->
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- This is the head section of the HTML document, containing metadata and links to external resources -->
 <head>
+    <!-- This specifies the character encoding for the document -->
     <meta charset="UTF-8">
+    <!-- This sets the initial scale of the viewport for responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- This provides a brief description of the website for search engines -->
+    <meta name="description" content="An online platform for food shopping">
+    <!-- These are keywords to help search engines categorize the content -->
+    <meta name="keywords" content="food, shopping, stores, monoprix, carrefour, aziza">
+    <!-- This specifies the author of the webpage -->
+    <meta name="author" content="Hafedh Ben Mansour">
+    <!-- This sets the title that appears in the browser tab or window -->
+    <title>9adhya.Tn - Your Food Shopping Destination</title>
+    <!-- This links to an external stylesheet to style the page -->
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
+
+<!-- This is the body section of the HTML document -->
 <body>
+    <!-- This is the navigation section, containing the website's main navigation elements -->
+    <nav>
+        <!-- This is the main heading of the navigation -->
+        <h1>9ADHYA.Tn</h1>
+        <!-- This is an unordered list containing navigation links -->
+        <ul>
+            <li><a href="#str">Stores</a></li>
+            <li><a href="#description">Description</a></li>
+            <li><a target="_blank" href="./src/Login.html">Login</a></li>
+            <li><a target="_blank" href="./src/Contact.html">Contact</a></li>
+            <li><a href="#os">Other Stores</a></li>
+        </ul>
+        <!-- This is an image logo for the website -->
+        <img id="logo" src="./assests/Capture d'écran 2023-08-23 193640.png" alt="Logo">
+    </nav>
+    <br> <br> <br>
+    <!-- This is the main content section of the webpage -->
+    <main>
+        <!-- This section is about stores -->
+        <section id="str">
+            <!-- This is a subheading for the stores section -->
+            <h1>Stores</h1>
+            <br>
+            <!-- This is an unordered list of store links -->
+            <ul>
+                <li><a target="_blank" href="https://aziza.tn/fr/home"><img src="./assests/images.png" alt="aziza shop"></a></li>
+                <li><a target="_blank" href="https://www.carrefour.tn/"><img src="./assests/market-hub-actu-800x480-OPERATION-2022-S00.webp" width="300" alt="carrefour shop"></a></li>
+                <li><a target="_blank" href="https://www.monoprix.tn/"><img src="./assests/Monoprix_logo_red_background.png" width="300" alt="monoprix shop"></a></li>
+            </ul>
+        </section>
+        <br> <br> <br>
+        <!-- This section is about products -->
+        <section>
+            <!-- This is a container for products -->
+            <div>
+                <!-- This is a subheading for the products section -->
+                <h1>Products</h1>
+                <br>
+                <!-- This is a link to the products page -->
+                <a href="./src/Products.html"><img src="./assests/TC Text-08.webp" alt="Products"></a>
+            </div>
+        </section>
+    </main>
     
+    <!-- This is the aside section, containing additional content -->
+    <aside>
+        <hr>
+        <!-- This is a section within the aside -->
+        <section>
+            <!-- This is a container for the description section -->
+            <div id="description">
+                <!-- This is a subheading for the description section -->
+                <h1>Description : </h1>
+                <br>
+                <!-- This is a paragraph explaining the purpose of the website -->
+                <p>This shopping site is an online platform where users can browse through a diverse range of products and services, view detailed information about each item, add chosen items to a virtual shopping cart, and proceed to securely purchase them using various payment methods. These websites offer a convenient way to shop from the comfort of one's own space, with features like search options, customer reviews, and secure checkout processes enhancing the overall shopping experience.</p>
+            </div>
+            <!-- This is a horizontal line to separate sections -->
+            <hr>
+            <!-- This is a container for other stores section -->
+            <div id="os">
+                <!-- This is a subheading for other stores section -->
+                <h1>Other Stores : </h1>
+                <br>
+                <!-- This is an unordered list of links to other online stores -->
+                <ul>
+                    <li><a target="_blank" href="https://www.alibaba.com/premium/amazon_order.html">AliBaBa</a></li>
+                    <li><a target="_blank" href="https://www.amazon.fr/">Amazon</a></li>
+                    <li><a target="_blank" href="https://best.aliexpress.com/">Aliexpress</a></li>
+                </ul>
+            </div>
+        </section>
+    </aside>
+
+    <!-- This is the footer section of the webpage -->
+    <footer>
+        <!-- This is a container for the contact information -->
+        <div class="footer-contact">
+            <!-- This is a heading for the contact information -->
+            <h3>Contact Us : </h3>
+            <br>
+            <!-- These are contact details -->
+            <p>Email: info@example.com</p>
+            <p>Phone: +123-456-7890</p>
+        </div>
+        <!-- This is a container for the bottom part of the footer -->
+        <div class="footer-bottom">
+            <!-- This is a copyright notice -->
+            <p>&copy; 2023 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
