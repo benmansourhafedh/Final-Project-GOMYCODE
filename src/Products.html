@@ -24,61 +24,137 @@
         <!-- This is an image logo for the website -->
         <a href="/index.html"><img id="logo" src="/assests/Capture d'écran 2023-08-23 193640.png" alt="Logo"></a>
     </nav>
-    
+    <br>
     <main>
+        <!-- Inside the <body> tag -->
 
-        <div>
-            
-            <div>
-                <div>
-                    <img src="/assests/huile-de-mais-nejma-bidon-5l.jpg" alt="Huile">
-                    <h3>Huile Nejma : 12.99dt</h3>
-                </div>
-                <br>
-                <div>
-                    <img src="/assests/165838724020_content.jpg" alt="Pain">
-                    <h3>Pain : 0.25dt</h3>
-                </div>
-                <br>
-                <div>
-                    <img src="/assests/spaghetti-3-l-epi-d-or.jpg" alt="Pain">
-                    <h3>Spaguetti : 1.99dt</h3>
-                </div>
-            </div>
-            <br>
-            <div>
-                <div>
-                    <img src="/assests/huile-de-mais-nejma-bidon-5l.jpg" alt="Huile">
-                    <h3>Huile Nejma : 12.99dt</h3>
-                </div>
-                <br>
-                <div>
-                    <img src="/assests/165838724020_content.jpg" alt="Pain">
-                    <h3>Pain : 0.25dt</h3>
-                </div>
-                <br>
-                <div>
-                    <img src="/assests/spaghetti-3-l-epi-d-or.jpg" alt="Pain">
-                    <h3>Spaguetti : 1.99dt</h3>
-                </div>
-            </div>
+    <div class="main-products">
+        <!-- ... product items ... -->
+    </div>
 
+    <!-- Shopping Cart -->
+    <div class="shopping-cart">
+        
+        <ul class="cart-items">
+            <li data-item="huile">
+                <img src="/assests/huile-de-mais-nejma-bidon-5l.jpg" alt="Huile">
+                <div class="cart-item-details">
+                    <h4>Huile Nejma</h4>
+                    <p>Price: 12.99dt</p>
+                    <div class="quantity-control">
+                        <button class="quantity-btn minus">-</button>
+                        <span class="quantity">1</span>
+                        <button class="quantity-btn plus">+</button>
+                    </div>
+                </div>
+            </li>
+          
+            <!-- Shopping Cart -->
+
+        
+        <ul class="cart-items">
+            <li data-item="huile">
+                <img src="/assests/165838724020_content.jpg" alt="Huile">
+                <div class="cart-item-details">
+                    <h4>Bread</h4>
+                    <p>Price: 12.99dt</p>
+                    <div class="quantity-control">
+                        <button class="quantity-btn minus">-</button>
+                        <span class="quantity">1</span>
+                        <button class="quantity-btn plus">+</button>
+                    </div>
+                </div>
+            </li>
+        <!-- Shopping Cart -->
+
+        
+        <ul class="cart-items">
+            <li data-item="huile">
+                <img src="/assests/spaghetti-3-l-epi-d-or.jpg" alt="Huile">
+                <div class="cart-item-details">
+                    <h4>Spaghetti</h4>
+                    <p>Price: 12.99dt</p>
+                    <div class="quantity-control">
+                        <button class="quantity-btn minus">-</button>
+                        <span class="quantity">1</span>
+                        <button class="quantity-btn plus">+</button>
+                    </div>
+                </div>
+            </li>    
+            <!-- Add more items here -->
+        </ul>
+        <p class="cart-total">Total: <span>12.99 dt</span></p>
+        <button class="checkout-btn">Checkout</button>
+    </div>
+
+    <br>
+   
+
+<!-- Inside the <body> tag -->
+</ul>
+<div class="main-products">
+<!-- ... product items ... -->
+</div>
+
+<!-- Shopping Cart -->
+<div class="shopping-cart">
+
+<ul class="cart-items">
+    <li data-item="huile">
+        <img src="/assests/_116406213_937652b1-d863-414a-bc2b-15ec579ccdf3.jpg" alt="Huile">
+        <div class="cart-item-details">
+            <h4>Fish</h4>
+            <p>Price: 12.99dt</p>
+            <div class="quantity-control">
+                <button class="quantity-btn minus">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn plus">+</button>
+            </div>
         </div>
+    </li>
+  
+    <!-- Shopping Cart -->
 
 
+<ul class="cart-items">
+    <li data-item="huile">
+        <img src="/assests/selle-d-agneau-crue-3000x2000.jpg" alt="Huile">
+        <div class="cart-item-details">
+            <h4>Meat</h4>
+            <p>Price: 12.99dt</p>
+            <div class="quantity-control">
+                <button class="quantity-btn minus">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn plus">+</button>
+            </div>
+        </div>
+    </li>
+<!-- Shopping Cart -->
 
 
+<ul class="cart-items">
+    <li data-item="huile">
+        <img src="/assests/escalope-poulet-en-bloc-scaled.jpg" alt="Huile">
+        <div class="cart-item-details">
+            <h4>Escalope</h4>
+            <p>Price: 12.99dt</p>
+            <div class="quantity-control">
+                <button class="quantity-btn minus">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn plus">+</button>
+            </div>
+        </div>
+    </li>    
+    <!-- Add more items here -->
+</ul>
+<p class="cart-total">Total: <span>12.99 dt</span></p>
+<button class="checkout-btn">Checkout</button>
+</div>
+</main>
 
 
-
-
-
-
-
-
-
-
-    </main>
+<script src="/Js/index.js"></script>
+    
 
 
      <!-- This is the footer section of the webpage -->
@@ -95,7 +171,7 @@
         <!-- This is a container for the bottom part of the footer -->
         <div class="footer-bottom">
             <!-- This is a copyright notice -->
-            <p>&copy; 2023 Your Company. All rights reserved.</p>
+            <p>&copy; 2023 9ADHYA.Tn. All rights reserved.</p>
         </div>
     </footer>
 
